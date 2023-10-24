@@ -161,3 +161,10 @@ console.log("pet object", pet);
 pet.walk();
 pet.namedWalk("John");
 pet.iNamedWalked();
+
+// ES6 arrow function example
+const squareArrow = (a) => {
+    return a * a;
+}
+
+console.log("squareArrow function", squareArrow(10));
